@@ -1,0 +1,100 @@
+.deistance {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .freeAirportTaxi {
+    margin-top: 10px;
+    font-size: 14px;
+    color: green;
+  }
+  
+  .desc {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .roomDesc {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .cancellation {
+    margin-top: 10px;
+    font-size: 14px;
+    color: green;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2923e1;
+    border: none;
+    background-color: rgb(212, 216, 208);
+    width: 55%;
+    height: 2rem;
+    border-radius: 10px;
+  }
+  
+  .isRating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 14px;
+    background-color: rgb(212, 216, 208);
+    width: 3rem;
+    height: 2rem;
+    border-radius: 10px;
+  }
+  
+  .detailTexts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .taxOption {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .checkoutButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .checkoutButton:hover {
+    background-color: #333;
+    color: #ffcc00;
+  }
+  .listContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+  }

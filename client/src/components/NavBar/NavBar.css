@@ -1,0 +1,31 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05203c;
+    color: white;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .navControllers {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size:22px ;
+  }
+  
+  .login,
+  .location,
+  .bars {
+    margin-right: 20px;
+  }
+  
+  .login:hover,
+  .location:hover,
+  .bars:hover {
+    cursor: pointer;
+  }

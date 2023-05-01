@@ -1,0 +1,133 @@
+
+.date {
+  position: absolute;
+  top: 50px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #05203c;
+  height: 45vh;
+  color: wheat;
+  font-family: 'Work Sans', sans-serif;
+}
+.headerDetails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 8%;
+  align-items: center;
+  justify-content: center;
+}
+.headerSearchInput {
+  height: 55px;
+  width: 200px;
+  margin-right: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+  
+}
+.headerSearchDate {
+  height: 55px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+  background-color: white;
+  position: relative;
+}
+.headerSearchDateText {
+  color: grey;
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+}
+.headerSearchitem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.headerSearchButton {
+  
+  margin-left: 12px;
+  background-color: blue;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerSearchText{
+  
+}
+.options{
+    position: absolute;
+    
+    height: vh;
+    z-index: 2;
+    top: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+.optionItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 25px;
+}
+.optionsButton{
+  width: 90px;
+  height: 35px;
+    
+    
+}
+select {
+ 
+    background: rgb(208, 201, 201);
+    font-size: 16px;
+    color: #333;
+  }
+  .optionTitle{
+    font-weight: 600;
+  }
+  .optionCounterButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(19, 19, 58);
+    color: white;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+  }
+.optionCounter{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.optionItem{
+  display: flex;
+  flex-direction: row;
+}

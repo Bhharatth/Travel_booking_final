@@ -1,0 +1,59 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 2vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/3302537/pexels-photo-3302537.jpeg?auto=compress&cs=tinysrgb&w=600")
+        center;
+  }
+  
+  Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .loginButton {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .loginButton :disabled {
+    color: green;
+    cursor: not-allowed;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  error {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  Link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  Link:hover {
+    text-decoration: underline;
+  }
